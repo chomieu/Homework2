@@ -1,0 +1,82 @@
+@media (max-width: 992px) {
+    .active {
+        background-color: pink;
+    }
+}
+
+nav, .btn, footer {
+    background-color: palevioletred;
+}
+
+h1, h5 {
+    font-family: Changa, cursive;
+}
+
+#myImage {
+    object-fit: scale-down;
+}
+
+#aboutText {
+    color: gray;
+} 
+
+button:hover {
+    background-color: pink;
+}
+
+button:focus {
+    outline: 1px solid;
+}
+
+.navbar .navbar-toggler {
+    border-color: pink !important;
+    border-radius: 0;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    border-style: outset;
+}
+
+h2, .pinkText {
+    color: palevioletred;
+}
+
+h5 {
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border: none;
+    color: black;
+}
+
+.card p, h5 {
+    display: none;
+}
+
+.card:hover p, .card:hover h5 {
+    display: block;
+}
+
+.card:hover img {
+    opacity: 0.25;
+}
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+}
+
+footer {
+    border-top: 10px solid silver;
+    color: silver;
+}
