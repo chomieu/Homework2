@@ -1,81 +1,108 @@
+/* Highlights the link to the current page in the navbar only when it can be toggled (<large/992px) */
 @media (max-width: 992px) {
     .active {
         background-color: pink;
     }
 }
 
+/* Adds bottom margin so that the footer doesn't hide the content */
+body {
+    margin-bottom: 65px;
+}
+
+/* Gives a palevioletred background color to the navbar, btn class, and footer */
 nav, .btn, footer {
     background-color: palevioletred;
 }
 
-h1, h5 {
-    font-family: Changa, cursive;
-}
-
-#myImage {
-    object-fit: scale-down;
-}
-
-#aboutText {
-    color: gray;
-} 
-
-button:hover {
-    background-color: pink;
-}
-
-button:focus {
-    outline: 1px solid;
-}
-
+/* Overides Bootstrap's border properties given to the navbar classes */
 .navbar .navbar-toggler {
     border-color: pink !important;
     border-radius: 0;
 }
 
+/* Makes links in the navbar bolder */
 .nav-link {
     font-weight: 500;
 }
 
-.container {
-    width: 90%;
-    margin: auto;
-    border-style: outset;
+/* Gives h1 and h5 the Changa font */
+h1, h5 {
+    font-family: Changa, cursive;
 }
 
+/* Changes color of the pinkText class and h2 to palevioletred */
 h2, .pinkText {
     color: palevioletred;
 }
 
+/* Makes h5 bold and adds white shadow with 1px offset to the bottom and the right side */
 h5 {
     font-weight: bold;
     text-shadow: 1px 1px white;
 }
 
+/* Adjusts container to be in the center, adds white background and an outset border */
+.container {
+    background-color: white;
+    margin: auto;
+    border-style: outset;
+}
+
+/* Adjusts width of the contact form to be 90% */
+#contactForm {
+    width: 90%;
+}
+
+/* Scales myImage based on the size of the container, keeping the image ratio consistent */
+#myImage {
+    object-fit: scale-down;
+}
+
+/* Changes color of the aboutText ID to gray */
+#aboutText {
+    color: gray;
+} 
+
+/* Adds bottom margin, padding, and removes the border of each card */
 .card {
     margin-bottom: 20px;
     padding: 0 10px;
     border: none;
-    color: black;
 }
 
+/* Hides h5 and p tag inside the card */
 .card p, h5 {
     display: none;
 }
 
+/* Displays h5 and p tag inside the card when user hovers over it with a cursor */
 .card:hover p, .card:hover h5 {
     display: block;
 }
 
+/* Reduces image opacity when user hovers over the card with a cursor to highlight the text inside */
 .card:hover img {
     opacity: 0.25;
 }
 
+/* Changes background color of the button when user hovers over it with a cursor */
+button:hover {
+    background-color: pink;
+}
+
+/* Overides Bootstrap's outline properties of the button when it is focused */
+button:focus {
+    outline: 1px solid;
+}
+
+/* Adds padding and changes text inside the btn class to white */
 .btn {
     color: white;
     padding: 10px 20px;
 }
 
+/* Adds top border and changes text inside the footer to silver */
 footer {
     border-top: 10px solid silver;
     color: silver;
