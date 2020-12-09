@@ -1,6 +1,6 @@
 # Responsive Portfolio
 
-Responsive portfolio was created using the Bootstrap CSS Framework, allowing web applications to render well on a variety of devices, window, or screen sizes.
+Responsive portfolio was created using the Bootstrap CSS Framework that allows web applications to render well on a variety of devices, window, or screen sizes.
 
 ### Skills:
 ```
