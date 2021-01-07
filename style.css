@@ -68,7 +68,7 @@ h5 {
 .card {
     margin-bottom: 20px;
     padding: 0 10px;
-    border: none;
+    border: 1px solid gray;
 }
 
 /* Hides h5 and p tag inside the card */
@@ -77,7 +77,7 @@ h5 {
 }
 
 /* Displays h5 and p tag inside the card when user hovers over it with a cursor */
-.card:hover p, .card:hover h5 {
+.card:hover .card, .card:hover h5 {
     display: block;
 }
 
