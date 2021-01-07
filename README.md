@@ -10,5 +10,10 @@ Responsive portfolio was created using the Bootstrap CSS Framework that allows w
 - Minimizing thw use of media queries via grid system
 ```
 
+### Preview:
+1. About <img alt="about-page" src="https://i.imgur.com/NuPdDTQ.png">
+2. Portfolio <img alt="portfolio-page" src="https://i.imgur.com/6Dz203W.png">
+3. Contact <img alt="contact-page" src="https://i.imgur.com/mp00SEo.png">
+
 ### Link:
 <https://chomieu.github.io/Responsive-Portfolio/>
