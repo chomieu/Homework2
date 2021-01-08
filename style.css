@@ -64,20 +64,29 @@ h5 {
     color: gray;
 } 
 
+/* Adjusts the size of icons */
+.icon {
+    width: 2rem;
+}
+
 /* Adds bottom margin, padding, and removes the border of each card */
 .card {
     margin-bottom: 20px;
     padding: 0 10px;
+    border: none;
+}
+
+.card img {
     border: 1px solid gray;
 }
 
 /* Hides h5 and p tag inside the card */
-.card p, h5 {
+.card .card-text, .card .card-title {
     display: none;
 }
 
 /* Displays h5 and p tag inside the card when user hovers over it with a cursor */
-.card:hover .card, .card:hover h5 {
+.card:hover .card-text, .card:hover .card-title {
     display: block;
 }
 
@@ -87,17 +96,18 @@ h5 {
 }
 
 /* Changes background color of the button when user hovers over it with a cursor */
-button:hover {
+.btn:hover {
     background-color: pink;
 }
 
 /* Overides Bootstrap's outline properties of the button when it is focused */
-button:focus {
+.btn:focus {
     outline: 1px solid;
 }
 
 /* Adds padding and changes text inside the btn class to white */
 .btn {
+    background-color: palevioletred;
     color: white;
     padding: 10px 20px;
 }
